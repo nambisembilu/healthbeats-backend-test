@@ -2,7 +2,7 @@
 
 This project was Build with [koajs](https://github.com/koajs/koa).
 
-## Requirement
+## Requirements
 
 - 2-FA code is to be stored in a database, and it should be encrypted.
 - 2-FA code should be for single use only. (It will be invalid / expired after single use)
