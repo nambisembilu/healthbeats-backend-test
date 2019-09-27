@@ -1,0 +1,7 @@
+<form action="/verify" method="POST">
+  2FA code: <input name="name" type="text" />
+  <!-- maybe you will need this, depends on your approach, if you don't need it, never mind -->
+  <input type="hidden" name="id" value="{{ id }}" />
+  <label>{{ msg }}</label>
+  <input type="submit" value="Submit" />
+</form>

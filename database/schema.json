@@ -1,0 +1,230 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 2,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 2,
+          "values": [
+            "5d899beb70cc030d766e3b56",
+            "5d89c6430443a3615e2ce3fc"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 2,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "attemps",
+      "path": "attemps",
+      "count": 2,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "attemps",
+          "count": 2,
+          "values": [
+            5,
+            1
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 2,
+      "type": "Int32",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "block",
+      "path": "block",
+      "count": 2,
+      "types": [
+        {
+          "name": "Boolean",
+          "bsonType": "Boolean",
+          "path": "block",
+          "count": 2,
+          "values": [
+            false,
+            false
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 1,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 2,
+      "type": "Boolean",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "code",
+      "path": "code",
+      "count": 2,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "code",
+          "count": 2,
+          "values": [
+            "$2a$10$vnpXJA7k9Wn15UBpOrbTzuhQJzHsjGl9H3FVe7uPn5MikqfOhQ9I2",
+            ""
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 2,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "code_created",
+      "path": "code_created",
+      "count": 2,
+      "types": [
+        {
+          "name": "Date",
+          "bsonType": "Date",
+          "path": "code_created",
+          "count": 2,
+          "values": [
+            "2019-09-25T09:16:16.105Z",
+            "2019-09-25T09:06:44.192Z"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 2,
+      "type": "Date",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "email",
+      "path": "email",
+      "count": 2,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "email",
+          "count": 2,
+          "values": [
+            "amar.fargan@gmail.com",
+            "fargan@gmail.com"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 2,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "kode",
+      "path": "kode",
+      "count": 2,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "kode",
+          "count": 2,
+          "values": [
+            "4140",
+            ""
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 2,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "password",
+      "path": "password",
+      "count": 2,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "password",
+          "count": 2,
+          "values": [
+            "$2a$10$uI0N1heDDR1JS13cea558.qW8NoxoSrvBuerzexSGjbLiOy3/ocTe",
+            "$2a$10$uI0N1heDDR1JS13cea558.qW8NoxoSrvBuerzexSGjbLiOy3/ocTe"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 1,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 2,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "username",
+      "path": "username",
+      "count": 2,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "username",
+          "count": 2,
+          "values": [
+            "fargan",
+            "amar"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 2,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 2
+}

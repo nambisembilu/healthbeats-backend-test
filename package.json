@@ -1,0 +1,24 @@
+{
+  "name": "koa2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "install": "^0.13.0",
+    "koa": "^2.8.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-view": "^2.1.3",
+    "mongodb": "^3.3.2",
+    "node-pre-gyp": "^0.13.0",
+    "nodemailer": "^6.3.0",
+    "unique-random": "^2.1.0"
+  }
+}
