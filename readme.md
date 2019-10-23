@@ -14,7 +14,8 @@ This project was Build with [koajs](https://github.com/koajs/koa).
 
    - Clone this project
    - Install mongo DB [From documentation](https://docs.mongodb.com/manual/installation/)
-   - Configure database connection inside **server.js**
+   - Configure database connection inside **/config/server.js**
+   - Configure your mail SMTP inside file **config/mail.js**
    - Run `npm install`
-   - Then `npm app`
+   - Then `node app`
    - Done

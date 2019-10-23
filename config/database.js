@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient
-const MongoURL = 'mongodb://localhost:27017/backend'
+const MongoURL = 'mongodb://localhost:27017/healthbeats'
 
 
 module.exports = function (app) {
@@ -8,8 +8,8 @@ module.exports = function (app) {
         useUnifiedTopology: true
     })
         .then((connect) => {
-            const db = connect.db('backend')
-            app.user = db.collection('user')
+            const db = connect.db('healthbeats')
+            app.user = db.collection('users')
             console.log("connected")
         })
         .catch((err) => console.error(err))

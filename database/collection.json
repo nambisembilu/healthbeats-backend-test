@@ -1,2 +1,24 @@
-{"_id":{"$oid":"5d899beb70cc030d766e3b56"},"username":"fargan","email":"amar.fargan@gmail.com","password":"$2a$10$uI0N1heDDR1JS13cea558.qW8NoxoSrvBuerzexSGjbLiOy3/ocTe","code":"","attemps":{"$numberInt":"1"},"block":false,"code_created":{"$date":{"$numberLong":"1569402976105"}},"kode":""},
-{"_id":{"$oid":"5d89c6430443a3615e2ce3fc"},"username":"amar","email":"fargan@gmail.com","password":"$2a$10$uI0N1heDDR1JS13cea558.qW8NoxoSrvBuerzexSGjbLiOy3/ocTe","code":"","attemps":{"$numberInt":"1"},"block":false,"code_created":{"$date":{"$numberLong":"1569402404192"}},"kode":""}
+[
+  {
+    "_id": { "$oid": "5d899beb70cc030d766e3b56" },
+    "username": "fargan",
+    "email": "amar.fargan@gmail.com",
+    "password": "$2a$10$uI0N1heDDR1JS13cea558.qW8NoxoSrvBuerzexSGjbLiOy3/ocTe",
+    "code": "",
+    "attemps": { "$numberInt": "1" },
+    "block": false,
+    "code_created": { "$date": { "$numberLong": "1569402976105" } },
+    "kode": ""
+  },
+  {
+    "_id": { "$oid": "5d89c6430443a3615e2ce3fc" },
+    "username": "amar",
+    "email": "fargan@gmail.com",
+    "password": "$2a$10$uI0N1heDDR1JS13cea558.qW8NoxoSrvBuerzexSGjbLiOy3/ocTe",
+    "code": "",
+    "attemps": { "$numberInt": "1" },
+    "block": false,
+    "code_created": { "$date": { "$numberLong": "1569402404192" } },
+    "kode": ""
+  }
+]

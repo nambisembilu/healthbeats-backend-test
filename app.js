@@ -8,15 +8,13 @@ const view = require('koa-view')
 const uniqueRandom = require('unique-random')
 const ObjectID = require("mongodb").ObjectID
 const mongodb = require('mongodb')
-const nodemailer = require('nodemailer')
-
+const transporter = require('./config/mail')
 
 const random = uniqueRandom(1, 10000)
 const app = new Koa()
 const router = new Router()
 // const db    = require('./server')
-require('./server')(app)
-
+require('./config/database')(app)
 //view
 app.use(view('./views'))
 
@@ -25,18 +23,8 @@ app.use(BodyParser())
 
 //logger
 app.use(logger())
-
 //mail
-// let testAccount = await nodemailer.createTestAccount()
-const transporter = nodemailer.createTransport({
-    host: 'smtp.mailtrap.io',
-    port: 2525,
-    // secure: true,
-    auth: {
-        user: 'bfff0ee81fc41b',
-        pass: '3afada42961c49'
-    }
-})
+
 var deleteCode = app.use(async (ctx, next) => {
     const user = await ctx.app.user.find().toArray()
     const dateNow = new Date()
@@ -80,7 +68,7 @@ router.post('/login', async (ctx, next) => {
     let checkExistingUser = await ctx.app.user.findOne({
         'username': username,
     })
-    
+
     if (checkExistingUser.block == false) {
         if (checkExistingUser) {
             let checkPassword = Bcrypt.compareSync(password, checkExistingUser.password)
@@ -110,7 +98,7 @@ router.post('/login', async (ctx, next) => {
                     if (error) {
                         return console.log(error)
                     } else {
-                        console.log('Message sent: %s', info.messageId);
+                        console.log('Message sent to %s with info : %s, %s', getUser.email, info.messageId, kode);
                     }
                 })
 
